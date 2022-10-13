@@ -96,7 +96,7 @@ jobs:
           release_name: Release ${{ steps.gitversion.outputs.fullSemVer }}
           body: |
             'Fabrikam Drone Status App ${{ steps.gitversion.outputs.fullSemVer }}'
-          draft: true
+          draft: false
           prerelease: false
       - name: Azure Login
         uses: Azure/login@v1
