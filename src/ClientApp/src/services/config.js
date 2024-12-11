@@ -14,7 +14,7 @@ export const getApiConfig = () =>
 {
   return {
     url: `${process.env.AZURE_API_URL}`,
-    version: `/v1`
+    version: `/v2`
   };
 }
 
